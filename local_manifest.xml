@@ -10,5 +10,6 @@
         <project path="vendor/xiaomi/merlinx" name="mdalam073/android_vendor_xiaomi_merlinx" remote="rem" revision="lineage-20" clone-depth="1" />
         <project path="vendor/xiaomi/mt6768-common" name="mdalam073/vendor_xiaomi_mt6768-common" remote="rem" revision="14.0" clone-depth="1" />
         <project path="kernel/xiaomi/mt6768" name="mdalam073/android_kernel_xiaomi_mt6768" remote="rem" revision="14.0" clone-depth="1" />
-
+        <project path="device/mediatek/sepolicy_vndr" name="mdalam073/android_device_mediatek_sepolicy_vndr" remote="rem" revision="14.0" clone-depth="1" />
+        <project path="hardware/mediatek" name="mdalam073/android_hardware_mediatek" remote="rem" revision="14.0" clone-depth="1" />
 </manifest>
