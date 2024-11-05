@@ -18,7 +18,7 @@ git clone https://github.com/LineageOS/android_device_mediatek_sepolicy_vndr dev
 # trees
 rm -rf */xiaomi
 git clone --depth=1 https://github.com/plrine/device_xiaomi_mt6768-common device/xiaomi/mt6768-common -b lineage-21
-git clone --depth=1 https://github.com/mdalam073/device_xiaomi_merlinx device/xiaomi/merlinx -b alpha-14
+git clone --depth=1 https://github.com/mdalam073/android_device_xiaomi_merlinx device/xiaomi/merlinx -b alpha-14
 git clone --depth=1 https://github.com/plrine/vendor_xiaomi_mt6768_common vendor/xiaomi/mt6768-common -b lineage-21
 git clone --depth=1 https://github.com/lilium-haine/vendor_xiaomi_merlinx vendor/xiaomi/merlinx -b lineage-21
 git clone --depth=1 https://github.com/plrine/kernel_xiaomi_mt6768 kernel/xiaomi/mt6768 -b main
