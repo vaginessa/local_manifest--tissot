@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-        <remote name="rem"
-                fetch="https://github.com" />
-        <remove-project name="LineageOS/android_hardware_lineage_compat" />
-        <project path="hardware/lineage/compat" name="Lafactorial/android_hardware_lineage_compat" remote="rem" revision="lineage-21.0" />
-        <project path="hardware/xiaomi" name="crdroidandroid/android_hardware_xiaomi" remote="rem" revision="14.0" clone-depth="1" />
-        <project path="device/xiaomi/merlinx" name="mdalam073/android_device_xiaomi_merlinx" remote="rem" revision="alpha-14" clone-depth="1" />
-        <project path="device/xiaomi/mt6768-common" name="mdalam073/android_device_xiaomi_mt6768-common" remote="rem" revision="14.0" clone-depth="1" />
-        <project path="vendor/xiaomi/merlinx" name="mdalam073/android_vendor_xiaomi_merlinx" remote="rem" revision="lineage-20" clone-depth="1" />
-        <project path="vendor/xiaomi/mt6768-common" name="mdalam073/vendor_xiaomi_mt6768-common" remote="rem" revision="14.0" clone-depth="1" />
-        <project path="kernel/xiaomi/mt6768" name="mdalam073/android_kernel_xiaomi_mt6768" remote="rem" revision="14.0" clone-depth="1" />
-        <project path="device/mediatek/sepolicy_vndr" name="mdalam073/android_device_mediatek_sepolicy_vndr" remote="rem" revision="14.0" clone-depth="1" />
-        <project path="hardware/mediatek" name="mdalam073/android_hardware_mediatek" remote="rem" revision="14.0" clone-depth="1" />
+        <remote name="rem" fetch="https://github.com" />
+        <remote name="msm8953-xiaomi" fetch="https://github.com/xiaomi-msm8953-devs/" />    
+        
+        <project path="device/xiaomi/tissot" name="mdalam073/android_device_xiaomi_tissot-o" remote="rem" revision="voltageos-14" clone-depth="1" />
+        <project path="device/xiaomi/msm8953-common" name="mdalam073/android_device_xiaomi_msm8953-common" remote="rem" revision="voltageos-14" clone-depth="1" />
+        <project path="vendor/xiaomi/tissot" name="mdalam073/proprietary_vendor_xiaomi_tissot-o" remote="rem" revision="fourteen" clone-depth="1" />
+        <project path="vendor/xiaomi/msm8953-common" name="mdalam073/proprietary_vendor_xiaomi_msm8953-common" remote="rem" revision="fourteen" clone-depth="1" />
+         <!-- kernel tree -->
+  <project path="kernel/xiaomi/msm8953" name="android_kernel_xiaomi_msm8953" remote="msm8953-xiaomi" revision="lineage-21" clone-depth="1" />
+            <!-- Extras -->
+  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="rem" revision="lineage-21" clone-depth="1" />
 </manifest>
